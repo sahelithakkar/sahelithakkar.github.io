@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.item1 { grid-area: menu; }
+.item2 { grid-area: main; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main main main main';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  left: 0pt;
+  top: 0pt;
+  right: 0pt;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+
+.logo_img{
+  max-width: 16vw;
+  height: auto;
+  object-fit: cover; 
+  object-position: 50% 50%;
+}
+
+.gallery_img{
+  max-width: 19vw;
+  height: 19vw;
+  object-fit: cover; 
+  object-position: 50% 50%;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 2px;
+  grid-column-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.image-container > div {
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 30px;
+}
+
+.image-container > div:hover{
+  opacity: .8;
+}
+
+button {
+  background-color: white; 
+  border: 1px solid white;
+  color: black;
+  padding: 10px 36px;
+  width: 100%;
+  display: block;
+  font-size: 30px;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+}
+
+button:hover {
+  background-color: #5EA3B3;
+  color: white;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0px 36px 24px;
+
+}
+
+
