@@ -43,7 +43,7 @@
   grid-template-columns: auto auto auto auto;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-  grid-template-rows: 19vw;
+  grid-auto-rows: 19vw;
   background-color: white;
   padding: 10px;
 }
