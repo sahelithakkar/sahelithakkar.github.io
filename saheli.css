@@ -46,6 +46,7 @@
   grid-auto-rows: 19vw;
   background-color: white;
   padding: 10px;
+  margin-left: 19vw;
 }
 
 .image-container > div {
@@ -56,6 +57,16 @@
 
 .image-container > div:hover{
   opacity: .8;
+}
+
+.item1{
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  top: 0pt;
+  left: 0pt;
+  height: 100%;
+  width: 19vw;
 }
 
 button {
