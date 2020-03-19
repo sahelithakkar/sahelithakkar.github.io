@@ -49,6 +49,19 @@
   margin-left: 19vw;
 }
 
+@media screen and (max-width: 600px) {
+  .image-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-auto-rows: 49vw;
+    background-color: white;
+    padding: 10px;
+    margin-left: 49vw;
+  }
+}
+
 .image-container > div {
   background-color: rgba(0, 0, 0, 1);
   text-align: center;
@@ -65,7 +78,6 @@
   position: fixed;
   top: 0pt;
   left: 0pt;
-  height: 100%;
   width: 19vw;
 }
 
