@@ -41,8 +41,9 @@
 .image-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-row-gap: 2px;
+  grid-row-gap: 10px;
   grid-column-gap: 10px;
+  grid-template-rows: 19vw;
   background-color: white;
   padding: 10px;
 }
