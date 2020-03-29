@@ -107,10 +107,6 @@ p{
   padding: 0px 36px 24px;
 }
 
-h2:hover{
-  color: #71733F;
-}
-
 h1{
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -130,6 +126,8 @@ h2{
   ;
 }
 
-
+h2:hover{
+  color: #71733F;
+}
 
 
