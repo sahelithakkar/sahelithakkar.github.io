@@ -21,7 +21,7 @@ div{
 	overflow: hidden;
 }
 
-img{
+#image{
 	width: 100vw;
 	position: absolute;
 	bottom: 0;
@@ -38,9 +38,14 @@ img{
   padding-top: 20px;
 }
 
+.sidenav img{
+	max-width: 40px;
+	height: auto;
+	padding: 10px; 
+	display:block;
+}
+
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  font-size: 25px;
   color: white;
   display: block;
 }
