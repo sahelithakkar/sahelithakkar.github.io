@@ -7,6 +7,7 @@ function inverse() {
   document.getElementById("instagram").src = 'inverse_ig.jpg';
   document.getElementById("rambles").src = 'inverse_rambles.jpg';
   document.getElementById("aboutme").src = 'inverse_aboutme.jpg';
+  document.getElementById("home").src = 'inverse_home.jpg';
 }
 
 function original() {
@@ -18,4 +19,5 @@ function original() {
   document.getElementById("instagram").src = 'instagram.jpg';
   document.getElementById("rambles").src = 'rambles.jpg';
   document.getElementById("aboutme").src = 'aboutme.jpg';
+  document.getElementById("home").src = 'home.jpg';
 }

@@ -11,6 +11,7 @@
   grid-auto-rows: 19vw;
   background-color: white;
   padding: 10px;
+  padding-left: 60px;
 }
 
 .gallery_img{
@@ -44,3 +45,20 @@ h2:hover{
   color: #9fae22;
 }
 
+.sidenav {
+  height: 100%; 
+  width: 60px; 
+  position: fixed; 
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.sidenav img{
+  max-width: 40px;
+  height: auto;
+  padding: 10px; 
+  display:block;
+}
