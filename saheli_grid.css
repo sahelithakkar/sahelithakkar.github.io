@@ -2,34 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url("https://use.typekit.net/foc1bao.css");
 
-.item1 { grid-area: menu; }
-.item2 { grid-area: main; }
 
-.grid-container {
+.image-container {
   display: grid;
-  grid-template-areas:
-    'menu main main main main';
-  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-rows: 19vw;
   background-color: white;
   padding: 10px;
-  position: absolute;
-  left: 0pt;
-  top: 0pt;
-  right: 0pt;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 1);
-  text-align: center;
-  padding: 0;
-  font-size: 30px;
-}
-
-.logo_img{
-  max-width: 16vw;
-  height: auto;
-  object-fit: cover; 
-  object-position: 50% 50%;
 }
 
 .gallery_img{
@@ -39,32 +20,7 @@
   object-position: 50% 50%;
 }
 
-.image-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  grid-auto-rows: 19vw;
-  background-color: white;
-  padding: 10px;
-  margin-left: 19vw;
-}
-
-@media screen and (max-width: 600px) {
-  .image-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-    grid-auto-rows: 49vw;
-    background-color: white;
-    padding: 10px;
-    margin-left: 49vw;    
-  }
-}
-
 .image-container > div {
-  background-color: rgba(255, 232, 233, .6);
   text-align: center;
   font-size: 30px;
 }
@@ -73,61 +29,18 @@
   opacity: .8;
 }
 
-.item1{
-  background-attachment: scroll;
-  background-position: 0% 0%;
-  position: fixed;
-  top: 0pt;
-  left: 0pt;
-  width: 19vw;
-}
-
-button {
-  background-color: white; 
-  border: 1px solid white;
-  color: black;
-  padding: 10px 36px;
-  width: 100%;
-  display: block;
-  font-size: 30px;
-  text-align: left;
-  font-family: 'Playfair Display', serif;
-}
-
-button:hover {
-  background-color: #160B40;
-  color: #8F6B21;
-}
-
-p{
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
-  font-size: 16px;
-  font-weight: lighter;
-  padding: 0px 36px 24px;
-}
-
-h1{
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  color:white;
-}
-
 h2{
   font-family: 'cabazon' ,serif;
   font-weight: 400;
   font-style: normal;
-  color: #cf6e48;
-  font-size: 80px;
+  font-size: 100px;
   text-align: left;
-  padding: 0px 36px
-  ;
+  position: absolute;
+  top: 4%; 
+  right: 17%;
 }
 
 h2:hover{
-  color: #71733F;
+  color: #9fae22;
 }
-
 
