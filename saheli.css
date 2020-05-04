@@ -45,11 +45,28 @@ div{
 	display:block;
 }
 
-.sidenav a {
-  color: white;
-  display: block;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  background-color: white;
+  padding: 10px;
+  padding-left: 70px;
 }
 
-.sidenav a:hover {
-  color: white;
+.notes{
+	background-color: white;
+	border-style: solid;
+	border-color: #cf6e48;
 }
+
+.title{
+	background-color: #cf6e48;
+	color: white;
+	padding: 10px; 
+}
+
+.words{
+	padding: 10px; 
+}
+
